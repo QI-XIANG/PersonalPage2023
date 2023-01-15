@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/*===通用設定===*/
+.section-title {
+  color: #212529;
+}
+
+.section-subtitle {
+  color: #777777;
+}
+
+/*======*/
+/*===導覽列設定===*/
+.navbar {
+  text-align: center;
+  background-color: #2c2c2c;
+}
+
+.navbar .nav-item .nav-link {
+  color: #fff;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+  cursor: pointer;
+}
+
+.navbar-toggler {
+  background: transparent;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.offcanvas-body {
+  background-color: #2c2c2c;
+}
+
+/*===導覽列設定===*/
+/*===Carousel 區域 (Section1)===*/
+.section1 {
+  background-color: #26353B;
+}
+
+.section1 .row div { /*移除空白區域*/
+  border: none;
+  outline: none;
+  padding: 0px;
+}
+
+.simple-intro #card-name {
+  color: #fff;
+}
+
+.simple-intro .card-text {
+  color: #fff;
+}
+
+/*大頭貼*/
+.image-container {
+  width: 140px;
+  height: 140px;
+  border: none;
+  outline: none;
+}
+
+/*設定社交圖示(font awesome icons)*/
+.fa {
+  padding: 0px 25px 0px 0px;
+  font-size: 25px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook, .fa-linkedin, .fa-github {
+  color: #fff;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/*===Carousel 區域 (Section1)===*/
+/*===Footer 區域===*/
+.footer {
+  background-color: #2c2c2c;
+  color: #fff;
+}
+
+/*===Footer 區域===*//*# sourceMappingURL=style.css.map */
