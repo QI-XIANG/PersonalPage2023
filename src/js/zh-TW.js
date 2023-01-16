@@ -20,7 +20,7 @@ const content_zhTW = {
     
     "education_title": "學歷",
     "education_program": "國立中央大學, ERP 中心<br>商業智慧與分析學分學程",
-    "education_university": "國立中央大學 資訊管理學系",
+    "education_university": "國立中央大學<br>資訊管理學系",
     "education_highschool": "臺中市立臺中第一高級中學",
     "experience_title": "經歷",
     
