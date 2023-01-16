@@ -12,11 +12,13 @@
 <body>
     <nav class="navbar navbar-dark sticky-top navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Home</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <a class="navbar-brand" href="#" id="home">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="justify-content-center offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="justify-content-center offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Welcome to my website!</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -24,16 +26,16 @@
                 <div class="offcanvas-body justify-content-center">
                     <ul class="navbar-nav me-2 mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" id="nav-link-1" aria-current="page" href="#">About</a>
+                            <a class="nav-link active" id="nav-link-1" aria-current="page" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="nav-link-2" href="#">Education & Experience</a>
+                            <a class="nav-link" id="nav-link-2" href="#education">Education & Experience</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="nav-link-3" href="#">Skills & Languages</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="nav-link-4" href="#">Awards & Interests</a>
+                            <a class="nav-link" id="nav-link-4" href="#achievements">Achievements & Interests</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="nav-link-5" href="#">My Blog</a>
@@ -126,11 +128,11 @@
     </div>
 
     <!--About-->
-    <div class="container-fluid pt-5" id="about">
+    <div class="container-fluid pt-5" id="about" style="scroll-padding-top: 156px !important;">
         <div class="row">
             <div class="jumbotron jumbotron-fluid col-12">
                 <div class="container">
-                    <h1 class="display-4 fs-1 text-center section-title">About</h1>
+                    <h1 class="display-4 fs-1 text-center section-title" id="about_title">About</h1>
                     <p class="fs-6 text-center section-subtitle">MY BACKGROUND</p>
                 </div>
             </div>
@@ -153,22 +155,30 @@
         <div class="row">
             <div class="jumbotron jumbotron-fluid col-12">
                 <div class="container">
-                    <h1 class="display-4 fs-1 text-center section-title">Education</h1>
+                    <h1 class="display-4 fs-1 text-center section-title" id="education_title">Education</h1>
                     <p class="fs-6 text-center section-subtitle">WHAT I’VE LEARNED</p>
                 </div>
             </div>
             <div class="jumbotron jumbotron-fluid col-12">
                 <div class="container" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="fs-6 text-center">
-                        <span>2019 - Present</span>
+                        <span>Sep. 2020 - Present</span>
                     </div>
                     <div class="fs-6 text-center pt-1">
-                        <p><span id="education_university">National Central University</span>
-                            <br><span id="education_department">Management in Information System</span>
+                        <p><span id="education_program">National Central University, ERP Center<br>Business
+                                Intelligence & Analytics Program
                         </p>
                     </div>
                     <div class="fs-6 text-center">
-                        <span>2016 - 2019</span>
+                        <span>Sep. 2019 - Present</span>
+                    </div>
+                    <div class="fs-6 text-center pt-1">
+                        <p><span id="education_university">National Central University<br>Management in Information
+                                System
+                        </p>
+                    </div>
+                    <div class="fs-6 text-center">
+                        <span>Sep. 2016 - Jun. 2019</span>
                     </div>
                     <div class="fs-6 text-center pt-1">
                         <p id="education_highschool">Taichung First Senior High School</p>
@@ -183,23 +193,23 @@
         <div class="row">
             <div class="jumbotron jumbotron-fluid col-12">
                 <div class="container">
-                    <h1 class="display-4 fs-1 text-center section-title">Experience</h1>
+                    <h1 class="display-4 fs-1 text-center section-title" id="experience_title">Experience</h1>
                     <p class="fs-6 text-center section-subtitle">WHERE I’VE WORKED</p>
                 </div>
             </div>
             <div class="jumbotron jumbotron-fluid col-12 main-content-block">
                 <div class="container" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="fs-6 text-center">
+                        <span>Mar. 2021 - Mar. 2022</span>
+                    </div>
+                    <div class="fs-6 text-center pt-1">
+                        <p id="experience4">NCU Coding Club, Member</p>
+                    </div>
+                    <div class="fs-6 text-center">
                         <span>Feb. 2021 - Present</span>
                     </div>
                     <div class="fs-6 text-center pt-1">
                         <p id="experience1">Glory eLearning Website Manager</p>
-                    </div>
-                    <div class="fs-6 text-center">
-                        <span>Sep. 2019 - Present</span>
-                    </div>
-                    <div class="fs-6 text-center pt-1">
-                        <p id="experience2">NCU Traditional Chinese Music Club, Member</p>
                     </div>
                     <div class="fs-6 text-center">
                         <span>Jan. 2020 - Jun. 2022</span>
@@ -209,51 +219,101 @@
                             Leader</p>
                     </div>
                     <div class="fs-6 text-center">
-                        <span>Mar. 2021 - Mar. 2022</span>
-                    </div>
-                    <div class="fs-6 text-center pt-1">
-                        <p id="experience4">NCU Coding Club, Member</p>
-                    </div>
-                    <div class="fs-6 text-center">
                         <span>Oct. 2019 - Dec. 2019</span>
                     </div>
                     <div class="fs-6 text-center pt-1">
                         <p id="experience5">NCU MIS Carnival, Curation Group Member</p>
+                    </div>
+                    <div class="fs-6 text-center">
+                        <span>Sep. 2019 - Present</span>
+                    </div>
+                    <div class="fs-6 text-center pt-1">
+                        <p id="experience2">NCU Traditional Chinese Music Club, Member</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!--Awards-->
-    <div class="container-fluid pt-5" id="awards">
+    <!--Achievements-->
+    <div class="container-fluid pt-5" id="achievements">
         <div class="row">
             <div class="jumbotron jumbotron-fluid col-12">
                 <div class="container">
-                    <h1 class="display-4 fs-1 text-center section-title">Awards</h1>
+                    <h1 class="display-4 fs-1 text-center section-title" id="achievements_title">Achievements</h1>
                     <p class="fs-6 text-center section-subtitle">WHERE I SHINE</p>
                 </div>
             </div>
             <div class="jumbotron jumbotron-fluid col-12">
                 <div class="container" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="fs-6 text-center">
-                        <p>The 13th ITHELP Ironman
-                            Contest 2021</p>
+                        <p id="achievement1">The 14th ITHELP Ironman
+                            Contest 2022<br>《The Journey of Django Starter》</p>
                     </div>
                     <div class="fs-6 text-center">
-                        <p>The 14th ITHELP Ironman
-                            Contest 2022</p>
+                        <p id="achievement2">The 13th ITHELP Ironman
+                            Contest 2021<br>《JS30 Learning Diary》</p>
                     </div>
                     <div class="fs-6 text-center">
-                        <p>Google Developers Android App Study Jam 2021</p>
+                        <p id="achievement3">Google Developers Android App Study Jam 2021</p>
                     </div>
                     <div class="fs-6 text-center">
-                        <p>JLPT N4 Certificate</p>
+                        <p id="achievement4">JLPT N4 Certificate</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!--Main Content 6-->
+    <div class="container-fluid pt-5" id="interests">
+        <div class="row">
+            <div class="jumbotron jumbotron-fluid col-12">
+                <div class="container">
+                    <h1 class="display-4 fs-1 text-center section-title" id="interests_title">Interests</h1>
+                    <p class="fs-6 text-center section-subtitle">OUT OF OFFICE</p>
+                </div>
+            </div>
+            <div class="jumbotron jumbotron-fluid col-12">
+                <div class="container" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="fs-6 text-center">
+                        <p id="interest1">Animation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reading</p>
+                    </div>
+                    <div class="fs-6 text-center">
+                        <p id="interest2">Coding&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Web Design</p>
+                    </div>
+
+                    <div class="fs-6 text-center">
+                        <p id="interest3">Stock&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Computer Science
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-5 pb-3" id="contact">
+        <div class="row">
+            <div class="jumbotron jumbotron-fluid col-12">
+                <div class="container">
+                    <h1 class="display-4 fs-1 text-center section-title" id="contact_title">Contact</h1>
+                    <p class="fs-6 text-center section-subtitle">I'd love to hear from you</p>
+                </div>
+            </div>
+            <div class="jumbotron jumbotron-fluid col-12">
+                <div class="container">
+                    <div class="container" style="display: flex;justify-content: center;">
+                        <a href="https://www.linkedin.com/in/qi-xiang-zhang-499625210" target="_blank"
+                            class="fa fa-linkedin"></a>
+                        <a href="https://www.facebook.com/profile.php?id=100004441091584" target="_blank"
+                            class="fa fa-facebook"></a>
+                        <a href="https://github.com/QI-XIANG" target="_blank" class="fa fa-github"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!--Footer-->
     <div class="container-fluid footer pt-3 pb-3">
@@ -265,11 +325,14 @@
         </div>
     </div>
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+
 </body>
 <link href="./src/css/style.css" rel="stylesheet">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script type="module" src="./src/js/main.js"></script>
+<script src="./src/js/backToTop.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
@@ -277,5 +340,10 @@
 <script>
     AOS.init();
 </script>
+<style>
+    html {
+        scroll-padding-top: 25px;
+    }
+</style>
 
 </html>

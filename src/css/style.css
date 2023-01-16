@@ -1,4 +1,31 @@
 @charset "UTF-8";
+/*===返回頂部按鈕===*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  font-size: 28px;
+  border: none;
+  outline: none;
+  color: black;
+  opacity: 0.5;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 5px;
+}
+
+#myBtn .fa.fa-arrow-up {
+  height: 25px;
+  width: 25px;
+}
+
+#myBtn:hover {
+  color: #555;
+}
+
+/*===返回頂部按鈕===*/
 /*===通用設定===*/
 .section-title {
   color: #212529;
@@ -74,6 +101,16 @@
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
+}
+
+#contact .fa { /*聯絡我適用*/
+  padding: 0px 25px 0px 0px;
+  font-size: 36px;
+  width: 33px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 12px;
+  color: black;
 }
 
 .fa-facebook, .fa-linkedin, .fa-github {
