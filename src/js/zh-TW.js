@@ -7,7 +7,8 @@ const content_zhTW = {
     "nav-link-2":"學歷 & 經歷",
     "nav-link-3":"技能 & 語言",
     "nav-link-4":"成就 & 興趣",
-    "nav-link-5":"個人部落格",
+    "nav-link-5":"聯絡我",
+    "nav-link-6":"個人部落格",
     
     "carousel-title1": "2022 中央資管嘉年華",
     "carousel-title2": "2022 中央資管嘉年華",
@@ -22,14 +23,20 @@ const content_zhTW = {
     "education_program": "國立中央大學, ERP 中心<br>商業智慧與分析學分學程",
     "education_university": "國立中央大學<br>資訊管理學系",
     "education_highschool": "臺中市立臺中第一高級中學",
-    "experience_title": "經歷",
     
+    "experience_title": "經歷",
     "experience1": "榮耀數位學習 網站管理員",
     "experience2": "國立中央大學 國樂社 成員",
     "experience3": "國立中央大學 國樂社 二胡組 組長",
     "experience4": "國立中央大學 程式設計研究社 成員",
     "experience5": "國立中央大學 資管嘉年華 策展組",
     
+    "skills_languages_title": "技能 & 語言",
+    "skills_languages_chinese": "中文",
+    "skills_languages_english": "英文",
+    "skills_languages_japanese": "日文",
+    "skills_languages_taiwanese": "臺語",
+
     "achievements_title": "成就",
     "achievement1": "2022 iThome 鐵人賽<br>《Django初心者之旅》",
     "achievement2": "2021 iThome 鐵人賽<br>《JS30學習日記》",

@@ -7,7 +7,8 @@ const content_EN = {
     "nav-link-2":"Education & Experience",
     "nav-link-3":"Skills & Languages",
     "nav-link-4":"Achievements & Interests",
-    "nav-link-5":"My Blog",
+    "nav-link-5":"Contact",
+    "nav-link-6":"My Blog",
     
     "carousel-title1": "2022 NCU MIS Carnival",
     "carousel-title2": "2022 NCU MIS Carnival",
@@ -30,6 +31,12 @@ const content_EN = {
     "experience4": "NCU Coding Club, Member",
     "experience5": "NCU MIS Carnival, Curation Group Member",
     
+    "skills_languages_title": "Skills & Languages",
+    "skills_languages_chinese": "Chinese",
+    "skills_languages_english": "English",
+    "skills_languages_japanese": "Japanese",
+    "skills_languages_taiwanese": "Taiwanese",
+
     "achievements_title": "Achievements",
     "achievement1": "The 14th ITHELP Ironman Contest 2022<br>《The Journey of Django Starter》",
     "achievement2": "The 13th ITHELP Ironman Contest 2021<br>《JS30 Learning Diary》",
