@@ -15,7 +15,7 @@
   padding: 5px;
 }
 
-#myBtn .fa.fa-arrow-up{
+#myBtn .fa.fa-arrow-up {
   height: 25px;
   width: 25px;
 }
@@ -26,56 +26,76 @@
 /*===返回頂部按鈕===*/
 
 /*===通用設定===*/
-.section-title{
+html {
+  scroll-padding-top: 25px;
+}
+.section-title {
   color: #212529;
 }
-.section-subtitle{
+.section-subtitle {
   color: #777777;
 }
 /*======*/
 
 /*===導覽列設定===*/
-.navbar{
+.navbar {
   text-align: center;
   background-color: #2c2c2c;
 }
-.navbar .nav-item .nav-link{
+.navbar .nav-item .nav-link {
   color: #fff;
 }
-.navbar .dropdown-menu .dropdown-item{
+.navbar .dropdown-menu .dropdown-item {
   cursor: pointer;
 }
-.navbar-toggler{
-	background: transparent;
+.navbar-toggler {
+  background: transparent;
 }
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
+  outline: none;
+  box-shadow: none;
 }
-.offcanvas-body{
+.offcanvas-body {
   background-color: #2c2c2c;
+}
+@media (min-width: 992px) {
+  //在大尺寸螢幕顯示連結特效
+  .cool-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    margin-top: -1px;
+    background: #fff;
+    transition: width 0.3s;
+  }
+  .cool-link:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+  }
 }
 /*===導覽列設定===*/
 
 /*===Carousel 區域 (Section1)===*/
-.section1{
-  background-color: #26353B;
+.section1 {
+  background-color: #26353b;
 }
-.section1 .row div{ /*移除空白區域*/
+.section1 .row div {
+  /*移除空白區域*/
   border: none;
   outline: none;
   padding: 0px;
 }
-.simple-intro #card-name{
+.simple-intro #card-name {
   color: #fff;
 }
-.simple-intro .card-text{
+.simple-intro .card-text {
   color: #fff;
 }
 /*大頭貼*/
-.image-container { 
+.image-container {
   width: 140px;
   height: 140px;
   border: none;
@@ -90,7 +110,8 @@
   text-decoration: none;
   margin: 5px 2px;
 }
-#contact .fa{ /*聯絡我適用*/
+#contact .fa {
+  /*聯絡我適用*/
   padding: 0px 25px 0px 0px;
   font-size: 36px;
   width: 33px;
@@ -99,7 +120,9 @@
   margin: 5px 12px;
   color: black;
 }
-.fa-facebook, .fa-linkedin,.fa-github {
+.fa-facebook,
+.fa-linkedin,
+.fa-github {
   color: #fff;
 }
 .fa:hover {
@@ -108,8 +131,19 @@
 /*===Carousel 區域 (Section1)===*/
 
 /*===Footer 區域===*/
-.footer{
+.footer {
   background-color: #2c2c2c;
   color: #fff;
 }
 /*===Footer 區域===*/
+
+/*===Achievements 區域====*/
+#achievements a {
+  text-decoration: none;
+  color: #212529;
+  :hover {
+    color: rgb(25, 0, 255) !important;
+    opacity: 0.8;
+  }
+}
+/*===Achievements 區域====*/
