@@ -10,14 +10,16 @@
   outline: none;
   color: black;
   opacity: 0.5;
-  background-color: transparent;
+  background-color: skyblue;
+  border-radius: 25%;
   cursor: pointer;
-  padding: 5px;
 }
 
 #myBtn .fa.fa-arrow-up {
-  height: 25px;
-  width: 25px;
+  padding: 0;
+  margin-top: 0px;
+  height: 25px !important;
+  width: 25px !important;
 }
 
 #myBtn:hover {
