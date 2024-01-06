@@ -11,7 +11,7 @@
   outline: none;
   color: black;
   opacity: 0.5;
-  background-color: skyblue;
+  background-color: rgb(132, 143, 148);
   border-radius: 25%;
   cursor: pointer;
 }
@@ -64,8 +64,7 @@ html {
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
   outline: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .offcanvas-body {
@@ -80,16 +79,13 @@ html {
     height: 2px;
     margin-top: -1px;
     background: #fff;
-    -webkit-transition: width 0.3s;
     transition: width 0.3s;
   }
   .cool-link:hover::after {
     width: 100%;
-    -webkit-transition: width 0.3s;
     transition: width 0.3s;
   }
 }
-
 /*===導覽列設定===*/
 /*===Carousel 區域 (Section1)===*/
 .section1 {
@@ -168,11 +164,9 @@ html {
   text-decoration: none;
   color: #212529;
 }
-
 #achievements a :hover {
-  color: #1900ff !important;
+  color: rgb(25, 0, 255) !important;
   opacity: 0.8;
 }
 
-/*===Achievements 區域====*/
-/*# sourceMappingURL=style.css.map */
+/*===Achievements 區域====*//*# sourceMappingURL=style.css.map */
