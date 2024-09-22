@@ -34,7 +34,8 @@ const content_zhTW = {
     "experience4": "國立中央大學 程式設計研究社 成員",
     "experience5": "國立中央大學 資管嘉年華 策展組",
     "experience6": "國立陽明交通大學 資訊管理研究所<br>分散式系統實驗室(DS Lab), 成員",
-    
+    "experience7": "友達光電A+暑期種子實習計畫,<br/>先進製造二課實習生",
+
     "skills_languages_title": "技能 & 語言",
     "skills_languages_chinese": "中文",
     "skills_languages_english": "英文",
